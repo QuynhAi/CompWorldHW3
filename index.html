@@ -1,0 +1,27 @@
+﻿
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Game Of Life</title>
+    <script type="text/javascript"src="http://24.16.255.56:8888/socket.io/socket.io.js"></script>
+    <script type="text/javascript" src="./assetmanager.js"></script>
+    <script type="text/javascript" src="./gameengine.js"></script>
+    <script type="text/javascript" src="./main.js"></script>
+</head>
+<body>
+    <header>
+        <div id = "text"></div>
+        <button id="save" type="button">Save</button>
+        <button id="load" type="button">Load</button>
+    </header>
+    <canvas id="gameWorld" width="700" height="700" style="border: 1px solid white; background: black"></canvas>
+    <footer>
+        <button id="randomButton" style="height:50px;width:100px">Random</button>
+        <button id="gliderGunButton" style="height:50px;width:100px">Glider Gun</button>
+        <button id="spaceShipButton" style="height:50px;width:100px">Space Ship</button>
+        <button id="patternButton" style="height:50px;width:100px">Pattern</button>
+    </footer>
+
+</body>
+</html>
